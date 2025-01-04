@@ -1,4 +1,4 @@
-.newtons-cradle {
+.newtons-cradle{
   --uib-size: 40px;
   --uib-speed: 1.4s;
   --uib-color: black;
@@ -11,7 +11,7 @@
   height: var(--uib-size);
 }
 
-.newtons-cradle__dot {
+.newtons-cradle__dot{
   position: relative;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@
   transform-origin: center top;
 }
 
-.newtons-cradle__dot::after {
+.newtons-cradle__dot::after{
   content: '';
   display: block;
   width: 100%;
@@ -54,7 +54,7 @@
   }
 }
 
-@keyframes swing2 {
+@keyframes swing2{
   0% {
     transform: rotate(0deg);
     animation-timing-function: linear;
