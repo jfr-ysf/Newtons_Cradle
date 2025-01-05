@@ -1,5 +1,4 @@
 import { NewtonsCradle } from '@uiball/loaders'
-
 <NewtonsCradle 
  size={40}
  speed={1.4} 
